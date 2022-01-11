@@ -18,15 +18,11 @@ function App() {
       </div>
       <InputArea onAdd={addItem} />
       <div>
-          <ul>
-              {listItems.map((item, index) => (
-                  <ListItem 
-                      key={index}
-                      id={index}
-                      text={item}
-                  />
-              ))}
-          </ul>
+        <ul>
+          {listItems.map((item, index) => (
+            <ListItem key={index} id={index} text={item} />
+          ))}
+        </ul>
       </div>
     </div>
   );

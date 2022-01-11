@@ -1,72 +1,92 @@
 body {
-    background-color: #FFF89A;
-    min-height: 75vh;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Delius', cursive;
-    text-align: center;
-    font-size: 130%;
-    color: #1A5F7A;
+  background-color: #fff89a;
+  min-height: 75vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Delius", cursive;
+  text-align: center;
+  font-size: 130%;
+  color: #1a5f7a;
 }
 
 li {
-    text-align: left;
-    position: relative;
-    padding: 0.5rem;
-  }
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 10px;
+  margin-block-start: 0;
+  word-wrap: break-word;
+  max-width: 400px;
+  white-space: pre-line;
+}
 
 .add-button {
-    font-family: 'Delius', cursive;
-    font-size: 1rem;
-    padding: 3px 5px;
-    border: none;
-    text-decoration: none;
-    border-radius: 4px;
-    background-color: #FFC900;
-  }
+  font-family: "Delius", cursive;
+  font-size: 1rem;
+  padding: 3px 5px;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #ffc900;
+}
 
-.add-button:hover {background-color: #FFF89A;}
+.add-button:hover {
+  background-color: #fff89a;
+}
 
 .container {
-    width: 100%;
-    height: auto;
-    min-height: 550px;
-    max-width: 550px;
-    min-width: 350px;
-    background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
-    border-radius: 20px;
-    box-shadow: 4px 3px 7px 2px #00000040;
-    padding: 1rem;
-    box-sizing: border-box;
-  }
+  width: 100%;
+  height: auto;
+  min-height: 550px;
+  max-width: 550px;
+  min-width: 350px;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 
 .heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .heading h1 {
-    transform: rotate(2deg);
-    padding: 0.25rem 1.2rem;
-    border-radius: 15% 5% 17% 5%/5% 15% 25% 20%;
-    background-color: #FFC900;
-    font-size: 1.75rem;
+  transform: rotate(2deg);
+  padding: 0.25rem 1.2rem;
+  border-radius: 15% 5% 17% 5%/5% 15% 25% 20%;
+  background-color: #ffc900;
+  font-size: 1.75rem;
 }
 
 .form input {
-    box-sizing: border-box;
-    background-color: transparent;
-    padding: 0.75rem;
-    border-radius: 3px;
-    border: solid 3px transparent;
-    border-bottom: dashed 3px #FFC900;
-    font-size: 1rem;
-    color: #1A5F7A;
-    width: 75%;
-    margin-bottom: 25px;
-  }
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.75rem;
+  border-radius: 3px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #ffc900;
+  font-size: 1rem;
+  color: #1a5f7a;
+  width: 75%;
+  margin-bottom: 25px;
+}
+
+.item-checkbox {
+  text-align: left;
+  vertical-align: middle;
+  height: 12px;
+  width: 12px;
+  margin-right: 15px;
+}
+
