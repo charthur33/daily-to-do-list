@@ -11,12 +11,22 @@ body {
     color: #1A5F7A;
 }
 
+button {
+    font-family: 'Delius', cursive;
+    font-size: 1rem;
+    padding: 3px 5px;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #FFC900;
+  }
+
 .container {
     width: 100%;
     height: auto;
     min-height: 550px;
     max-width: 550px;
-    min-width: 400px;
+    min-width: 350px;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png");
     border-radius: 20px;
@@ -29,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .heading h1 {
@@ -39,3 +49,16 @@ body {
     background-color: #FFC900;
     font-size: 1.75rem;
 }
+
+.form input {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.75rem;
+    border-radius: 3px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #FFC900;
+    font-size: 1rem;
+    color: #1A5F7A;
+    width: 75%;
+    margin-bottom: 25px;
+  }
