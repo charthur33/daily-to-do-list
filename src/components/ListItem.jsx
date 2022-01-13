@@ -1,3 +1,5 @@
+//List item
+
 import React, { useState } from "react";
 
 function ListItem(props) {
@@ -11,12 +13,16 @@ function ListItem(props) {
     }
   }
   return (
-    <div
-      onClick={() => {
-        props.onChecked(props.id);
-      }}
-    >
+    <div>
       <li style={{ textDecorationLine: isChecked ? "line-through" : "none" }}>
+        <button
+          onClick={() => {
+            props.onDelete(props.id);
+          }}
+          className="delete-button"
+        >
+          D
+        </button>
         <input
           onClick={handleCheck}
           type="checkbox"

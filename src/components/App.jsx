@@ -13,6 +13,14 @@ function App() {
     });
   }
 
+  function deleteItem(id) {
+    setListItems((prevItems) => {
+        return prevItems.filter((item, index) => {
+            return index !== id;
+        });
+      });
+  }
+
   return (
     <div className="container">
       <div className="heading">
@@ -25,7 +33,12 @@ function App() {
       <div>
         <ul>
           {listItems.map((item, index) => (
-            <ListItem key={index} id={index} text={item} />
+            <ListItem
+              key={index}
+              id={index}
+              text={item}
+              onDelete={deleteItem}
+            />
           ))}
         </ul>
       </div>

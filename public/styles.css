@@ -19,7 +19,7 @@ li {
 
 ul {
   list-style-type: none;
-  padding-inline-start: 10px;
+  padding-inline-start: 2px;
   margin-block-start: 0;
   word-wrap: break-word;
   max-width: 400px;
@@ -38,6 +38,11 @@ ul {
 
 .add-button:hover {
   background-color: #fff89a;
+}
+
+.delete-button {
+    background-color: #ffc900;
+    margin-right: 3px;
 }
 
 .container {
