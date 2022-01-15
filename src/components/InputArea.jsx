@@ -18,7 +18,6 @@ function InputArea(props) {
         className="add-button"
         onClick={() => {
           props.onAdd(inputText);
-          //After user clicks add, input will be emptied
           setInputText("");
         }}
       >

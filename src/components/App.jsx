@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import InputArea from "./InputArea.jsx";
 import ListItem from "./ListItem.jsx";
 
+
 function App() {
   const [listItems, setListItems] = useState([]);
   const currentDate = new Date();

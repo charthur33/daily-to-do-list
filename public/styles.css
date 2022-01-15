@@ -11,10 +11,11 @@ body {
   color: #1a5f7a;
 }
 
-li {
+.list-item li {
   text-align: left;
   position: relative;
   padding: 0.5rem;
+  padding-left: 0;
 }
 
 ul {
@@ -23,7 +24,7 @@ ul {
   margin-block-start: 0;
   word-wrap: break-word;
   max-width: 400px;
-  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 .add-button {
@@ -41,8 +42,18 @@ ul {
 }
 
 .delete-button {
-    background-color: #ffc900;
-    margin-right: 3px;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    margin-top: 2px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#ffc900;
+    cursor: pointer;
+    
 }
 
 .container {
@@ -99,5 +110,6 @@ ul {
   height: 12px;
   width: 12px;
   margin-right: 15px;
+  margin-bottom: 12px;
 }
 

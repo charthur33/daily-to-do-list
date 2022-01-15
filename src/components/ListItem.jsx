@@ -1,6 +1,5 @@
-//List item
-
 import React, { useState } from "react";
+import ClearIcon from '@mui/icons-material/Clear';
 
 function ListItem(props) {
   const [isChecked, setIsChecked] = useState(false);
@@ -13,7 +12,7 @@ function ListItem(props) {
     }
   }
   return (
-    <div>
+    <div className="list-item">
       <li style={{ textDecorationLine: isChecked ? "line-through" : "none" }}>
         <button
           onClick={() => {
@@ -21,7 +20,7 @@ function ListItem(props) {
           }}
           className="delete-button"
         >
-          D
+          <ClearIcon />
         </button>
         <input
           onClick={handleCheck}
