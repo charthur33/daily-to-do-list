@@ -27,7 +27,7 @@ function ListItem(props) {
           type="checkbox"
           className="item-checkbox"
         />
-        {props.text}
+        <span>{props.text}</span>
       </li>
     </div>
   );

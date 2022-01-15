@@ -11,13 +11,6 @@ body {
   color: #1a5f7a;
 }
 
-.list-item li {
-  text-align: left;
-  position: relative;
-  padding: 0.5rem;
-  padding-left: 0;
-}
-
 ul {
   list-style-type: none;
   padding-inline-start: 2px;
@@ -26,6 +19,19 @@ ul {
   max-width: 400px;
   white-space: pre-wrap;
 }
+
+.list-item li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+  padding-left: 0;
+}
+
+
+.list-item span {
+  vertical-align: top;
+}
+
 
 .add-button {
   font-family: "Delius", cursive;
@@ -53,7 +59,7 @@ ul {
     padding-bottom: 0;
     color:#ffc900;
     cursor: pointer;
-    
+    vertical-align: top;
 }
 
 .container {
@@ -110,6 +116,6 @@ ul {
   height: 12px;
   width: 12px;
   margin-right: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 1.2%;
 }
 
