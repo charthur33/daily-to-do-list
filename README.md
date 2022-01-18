@@ -3,8 +3,8 @@
   ## Description
   This application is a basic to-do list developed in React.js
   ## Application Usage
-  -Click above dashed yellow line to enter text, click yellow 'Add' button to add inputted text as a to-do item
-  -Click the checkbox next to an item to cross it out, or click the yellow X to delete permanently
+  - Click above dashed yellow line to enter text, click yellow 'Add' button to add inputted text as a to-do item
+  - Click the checkbox next to an item to cross it out, or click the yellow X to delete permanently
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
